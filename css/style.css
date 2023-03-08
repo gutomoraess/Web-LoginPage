@@ -188,6 +188,7 @@ login-card-header h1+div {
 @media (max-width: 768px) {
     body {
         padding: 2rem 0;
+        overflow: auto;
     }
 
     .login-card {
