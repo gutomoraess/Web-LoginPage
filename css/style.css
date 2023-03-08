@@ -8,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .login-card {
@@ -94,7 +95,7 @@ login-card-header h1+div {
 .login-card-form .form-item-other {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: calc(1rem * .8rem);
     margin-bottom: .5rem;
 }
@@ -154,7 +155,7 @@ login-card-header h1+div {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1.2rem;
-    color: blue;
+    color: darkblue;
 }
 
 .login-card-social-btns {
